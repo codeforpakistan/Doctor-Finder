@@ -1,0 +1,169 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+    android:background="@layout/border1">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="386dp"
+        android:layout_height="178dp"
+        android:layout_x="-23dp"
+        android:layout_y="1dp"
+        android:src="@drawable/poi" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:textSize="14sp"
+        android:layout_width="156dp"
+        android:layout_height="25dp"
+        android:layout_x="148dp"
+        android:layout_y="206dp"
+         android:typeface="serif"
+        android:hint="Select speciality" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_x="3dp"
+        android:layout_y="411dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1.5"
+        android:textSize="14sp"
+        android:text="Enter Longitude"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:layout_x="2dp"
+        android:layout_y="441dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:textSize="14sp"
+        android:shadowRadius="1.5"
+        android:text="Enter Latitude"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="138dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="8dp"
+        android:layout_x="157dp"
+        android:layout_y="407dp"
+        android:background="@layout/text"
+        android:ellipsize="start"
+        android:ems="10"
+        android:gravity="right"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="138dp"
+        android:layout_height="24dp"
+        android:layout_x="158dp"
+        android:layout_y="444dp"
+        android:background="@layout/text"
+        android:ellipsize="start"
+        android:ems="10"
+        android:gravity="right"
+        android:textSize="14sp"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+         android:typeface="serif"
+        android:layout_height="20dp"
+        android:layout_x="224dp"
+        android:layout_y="248dp"
+        android:textSize="14sp"
+        android:text="female" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="245dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1.5"
+        android:text="Choose Gender"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_x="1dp"
+        android:layout_y="214dp"
+        android:shadowColor="#000000"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1.5"
+        android:text="Select Speciality"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="14sp"
+        android:typeface="serif" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_x="147dp"
+        android:layout_y="249dp"
+        android:text="male"
+        android:textSize="14sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/buttonStyle"
+        android:layout_width="95dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="26dp"
+        android:layout_x="70dp"
+        android:layout_y="285dp"
+        android:background="#808080"
+        android:text="View on Map"
+        android:typeface="serif" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="19dp"
+        android:layout_x="58dp"
+        android:layout_y="332dp"
+        android:text="Enter Location Manually"
+        android:textSize="14sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/buttonStyle"
+        android:layout_width="95dp"
+        android:layout_height="28dp"
+        android:layout_marginRight="20dp"
+        android:layout_x="175dp"
+        android:layout_y="284dp"
+        android:background="#808080"
+        android:text="View List"
+        android:typeface="serif" />
+
+</AbsoluteLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Doctor Finder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_settings">Search</string>
+    <string name="hello_ali_world_">"HELLO ALI WORLD "</string>
+    <string name="title_activity_list"> </string>
+    <string name="title_activity_maps"></string>
+    <string name="title_activity_main_maps"></string>
+    <string name="title_activity_listviewactivity"></string>
+    <string name="title_activity_infromationpage">Infromationpage</string>
+    <string name="title_activity_informationpage"></string>
+    <string name="check_legend">Display Legend</string>
+    <string name="country_prompt">Choose a gender</string>
+     <string-array name="options">
+     <item>both</item>       
+        <item>male</item>
+        <item>female</item>         
+    </string-array>
+
+</resources>

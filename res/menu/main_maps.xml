@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.helloworld2.MainMapsActivity" >
+
+    <item
+        android:id="@+id/action_settings"        
+        android:title="@string/search_settings"        
+        app:showAsAction="never"/>
+
+        <item
+    android:id="@+id/legendcheckbox"
+    android:actionViewClass="android.widget.CheckBox"
+    android:showAsAction="always"
+    android:title="Select Legend"/>
+
+</menu>

@@ -1,0 +1,39 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_x="0dp"
+        android:layout_y="2dp"
+        android:text="Medium Text"
+        android:fontFamily="serif" 
+        android:background="@layout/border2"       
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_x="0dp"
+        android:layout_y="92dp"
+        android:fontFamily="serif"
+        android:background="@layout/border2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+"
+                 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_x="0dp"
+        android:layout_y="443dp"
+        android:background="#808080"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Call "
+        android:textColor="#FFFFFF" />
+    
+   </AbsoluteLayout>
